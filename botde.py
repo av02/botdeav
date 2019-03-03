@@ -5,7 +5,7 @@ from random import randint
 import asyncio
 import time
 
-token = "NDc0OTU1MzkxNjIxNjYwNjcy.DnE7Ow.91EZhCea-GrEIT8eYKn3djvVObY" # ton token ici
+token = process.env.token # ton token ici
 
 bot = commands.Bot(command_prefix= "+" ,description="de")
 
