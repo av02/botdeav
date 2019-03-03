@@ -1,1 +1,1 @@
- web: python app.py
+Worker : python3 botdeav
