@@ -1,1 +1,1 @@
-Worker : python3 botde
+worker : python3 botde
