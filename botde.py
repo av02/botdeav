@@ -4,6 +4,7 @@ import random
 from random import randint
 import asyncio
 import time
+import os
 
 token = process.env.token # ton token ici
 
@@ -38,4 +39,4 @@ async def dire_apres(ctx ,delay , what):
     await asyncio.sleep(delay)
     await ctx.send(what)
 
-bot.run(token)
+bot.run(bot.run(os.environ['token']))
