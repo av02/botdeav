@@ -1,1 +1,1 @@
-Worker : python3 botdeav.py
+Worker : python3 botde
